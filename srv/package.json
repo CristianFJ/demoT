@@ -1,0 +1,17 @@
+{
+    "name": "saasabap-srv",
+    "engines": {
+        "node": "14.x"
+    },
+    "dependencies": {
+        "express": "latest",
+        "cfenv": "latest",
+        "body-parser": "latest",
+        "@sap/xsenv": "latest",
+        "@sap/xssec": "latest",
+        "passport": "latest"
+    },
+    "scripts": {
+        "start": "node server.js"
+    }
+}
